@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joy (Again)</title>
+    <style>
+        table, th, td {
+          border:1px solid black;
+          border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <h1>Take A Look At My Dog</h1>
+    <img src="PXL_20240516_020246945.PORTRAIT.png" alt="Dog chewing on a stick" usemap="#dogmap" width="440" height="459">
+    <map name="dogmap">
+  
+    <area target="_blank" alt="Grass" title="Grass" href="https://simple.wikipedia.org/wiki/Grass" coords="425,42,2,2" shape="rect">
+    <area target="_blank" alt="Hound" title="Hound" href="https://en.wikipedia.org/wiki/Plott_Hound" coords="41,111,145,93,206,137,355,65,429,46,422,199,338,311,248,348,141,238,103,209,29,178" shape="poly">
+    <area target="_blank" alt="Oak" title="Oak" href="https://en.wikipedia.org/wiki/Oak" coords="37,207,200,332,280,422,229,452,21,235" shape="poly">
+    </map>
+
+
+    <h2>About Joy:</h2>
+<table style="width: 100%;">
+    <caption>The Basics</caption>
+    <tr>
+        <th>Full Registered Name:</th>
+        <td>Nintendo Switch Joycon</td>
+      </tr>
+      <tr>
+        <th>Breed:</th>
+        <td>Plott Hound</td>
+      </tr>
+      <tr>
+        <th>Favorite thing:</th>
+        <td rowspan="2">Eating</td>
+      </tr>
+      <tr>
+        <th>Favorite activity:</th>
+      </tr>
+      <tr>
+        <th>Favorite Food:</th>
+        <td>Yes</td>
+      </tr>
+    
+</table>
+<br>
+<table style="width: 100%;">
+    <th colspan="2">Crimes</th>
+    <tr>
+        <th>Against Humanity:</th>
+        <td rowspan="3">All of the above</td>
+    </tr>
+    <tr>
+        <th>Against My Family and Friends:</th>
+    </tr>
+    <tr>
+        <th>Against Me Personally:</th>
+    </tr>
+</table>
+
+    
+    <form>
+        <form method="GET">
+            <p>Please take this survey to rate my dog:</p>
+            <div>
+              <label for="fullName">Name: </label><br />
+              <input type="text" id="fullName" name="fullName" />
+            </div>
+            <div>
+                <label for="useremail">Email: </label><br>
+                <input type="email" name = "usermail" required>
+              </div>
+              <div>
+                <label for="date">Date of Survey: </label><br>
+                <input type="date" name = "date">
+
+              </div><br>
+            <div>
+              <label for = "iq">Use this slider to rate her cuteness: </label><br>
+              <input type="range" min="1" max="10" value="10" name="iq">
+            </div><br>
+            <div>
+              <label for ="pats">Would you pet this dog? </label><br>
+              <select name = "pats">
+                <option value = "1" default>Yes!</option>
+                <option value = "2" default>Absolutely!</option>
+                <option value = "3" default>Most definitely!</option>
+                <option value = "4" default>I thought you'd never ask!</option>
+                <option value = "5" default>No. (Monster option)</option>
+                
+              </select>
+            </div><br>
+            
+            <div>
+                  <label for ="dog_quality">Is she a good girl?</label><br>
+                  <input type="radio" id="Y" name="dog_quality" value="Y">
+                  <label for="Y">Yes</label><br>
+                  <input type="radio" id="Y2" name="dog_quality" value="Y2">
+                  <label for="Y2">Yes, but a different button</label><br>
+                
+            </div><br>
+            <div>
+                <label for="final">Any closing thoughts about my dog? </label><br>
+                <textarea id="final" name="final" rows="4" cols="50"></textarea>
+            </div>
+    
+            <div>
+            <input type="submit" value = "Submit Survey">
+            <input type="reset" value = "Reset">
+            </div>
+    
+
+    </form>
+    
+</body>
+</html>
